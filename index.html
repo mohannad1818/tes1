@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/100018672?v=4" type="image/x-icon" />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+      
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+
+
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
+    </section>
+    <!--Small text-->
+ 
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#" >
+      <img src="images/R2.jpg" alt="Profile Picture">
+    </a>
+
+
+
+    <!-- <div id="userName">
+      @D3Falt
+      <p style="color: var(--heading);">AKA Sayan Roy</p>
+    </div> -->
+
+    <div id="links">
+      <a class="link" href=menu.html >
+        <span style="    text-align: center;" class="material-symbols-rounded" >
+          restaurant_menu
+          </span>
+        MENU
+      </a>
+     
+      <a class="link" href="https://www.linkedin.com/in/roy-sayan-lpu/" target="_blank">
+        <span class="material-symbols-rounded">
+          location_on
+          </span> location
+      </a>
+      <a class="link" href="https://www.instagram.com/d3faltxd/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/G2Ahri" target="_blank">
+        <i class="fab fa-whatsapp">&nbsp;</i>Whatsapp
+      </a>
+   
+    </div>
+    
+    <script>
+      function myFunction() {
+        var copyText = "D3Falt#0459";
+        navigator.clipboard.writeText(copyText);
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copied: " + copyText;
+      }
+      
+      function outFunc() {
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copy to clipboard";
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+mine 
+#0D5CEC
+rgb(13, 92, 236)
+_____________
+#FDD000
+rgb(253, 208, 0)
+____________________
+img {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: 78px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+}
